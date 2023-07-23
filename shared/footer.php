@@ -29,8 +29,8 @@
     </div>
   </div>
   <div class="row no-gutters social-container">
-    <div class="col"><a class="social-inner" href="https://www.facebook.com/svetla.balchik"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-    <div class="col"><a class="social-inner" href="https://www.instagram.com/svetla_balchik/?igshid=1a2k73g7tbgk4&fbclid=IwAR3fgXtMQJAY39SX5l2BQts8MspL65WlusEYPPizcxcfHGeQtnKDbkFwlfQ"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+    <div class="col"><a class="social-inner" href="https://www.facebook.com/svetla.balchik" target="_blank"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+    <div class="col"><a class="social-inner" href="https://www.instagram.com/svetla_balchik/?igshid=1a2k73g7tbgk4&fbclid=IwAR3fgXtMQJAY39SX5l2BQts8MspL65WlusEYPPizcxcfHGeQtnKDbkFwlfQ" target="_blank"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
   </div>
 
 </footer>

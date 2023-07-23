@@ -1,0 +1,142 @@
+/* breadcrumbs */
+
+.collapsed ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2em;
+    color: #333;
+}
+
+.collapsed li {
+    display: inline-block;
+    position: relative;
+    padding-right: 2em;
+    margin: 0;
+}
+
+.collapsed li:after {
+    content: '>';
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 2em;
+    text-align: center;
+}
+
+.collapsed li:last-child {
+    font-weight: bold;
+}
+
+.collapsed li:last-child:after {
+    content: '';
+}
+
+.collapsed a {
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    white-space: nowrap;
+}
+
+.collapsed a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* END breadcrumbs */
+
+.container .grid {
+    font-size: 18px;
+    line-height: 1.58;
+}
+
+.container .grid .box-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .grid .box-grid .box {
+    margin: 20px auto;
+}
+
+.container .grid .grid-box,
+.container .grid .content {
+    display: flex;
+}
+
+.container .grid-box .box,
+.container .content .content-box {
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .grid-box .p-box,
+.container .content .content-p-box {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .container .grid-box .p-box {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .grid .grid-box,
+    .container .grid .images {
+        flex-direction: column;
+    }
+    .container .grid .content {
+        flex-direction: column-reverse;
+    }
+    .container .grid-box .box {
+        margin-bottom: 20px;
+    }
+    .container .grid-box .p-box {
+        margin-top: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .container .grid .content {
+        margin: 20px auto;
+    }
+    .container .content .content-p-box {
+        margin-top: -30px;
+        height: auto;
+    }
+}
+
+.container .grid .box-grid .second-box p {
+    text-align: center;
+}
+
+.container .grid .cite {
+    margin: 50px;
+    text-align: center;
+}
+
+.container .grid .box-grid .second-box blockquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%;
+    margin-left: 300px; */
+}
+
+.container .grid .text {
+    text-align: center;
+}
+
+.container .grid .images {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}

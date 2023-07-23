@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* breadcrumbs */
+
+.collapsed ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2em;
+    color: #333;
+}
+
+.collapsed li {
+    display: inline-block;
+    position: relative;
+    padding-right: 2em;
+    margin: 0;
+}
+
+.collapsed li:after {
+    content: '>';
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 2em;
+    text-align: center;
+}
+
+.collapsed li:last-child {
+    font-weight: bold;
+}
+
+.collapsed li:last-child:after {
+    content: '';
+}
+
+.collapsed a {
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    white-space: nowrap;
+}
+
+.collapsed a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* END breadcrumbs */
+
+#gallery .row .column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+#gallery .row .column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+    #gallery .row .column img {
+        min-width: 100%;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1138px) {
+    #gallery .row .column img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    #gallery .row .column img {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #gallery .row .column img {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #gallery .row .column img {
+        margin-left: auto;
+    }
+}
+
+#gallery .row .zoomD {
+    display: inline-block;
+    border: 0;
+    position: relative;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 100ms ease-in;
+    transform: scale(1);
+}
+
+#gallery .row .zoomD:hover {
+    box-shadow: 0px 0px 100px #000000;
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 100ms ease-in;
+    transform: scale(1.7);
+}

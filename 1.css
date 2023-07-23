@@ -1,0 +1,341 @@
+:root {
+  --menu-speed: 0.75;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya', serif;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4em;
+  overflow-x: hidden;
+  letter-spacing: -0.004em;
+}
+
+.container-1 {
+ font-family: 'Caveat', cursive;
+ text-align: center;
+}
+
+#main-header {
+ background-image: url('images/head-logo.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 350px;
+}
+
+#main-header h1 {
+font-family: 'Caveat', cursive;
+ font-size: 45px;
+ text-shadow: 2px 2px 0 #bcbcbc, 3px 2px 0 #9c9c9c;
+}
+
+@media screen and (max-width: 966px) {
+  #main-header h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 926px) {
+  #main-header h1 {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 901px) {
+  #main-header h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 887px) {
+  #main-header h1 {
+    font-size: 39px;
+  }
+}
+@media screen and (max-width: 840px) {
+  #main-header h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 691px) {
+  #main-header h1 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 650px) {
+ #main-header h1 {
+ text-shadow: none;
+ }
+}
+@media screen and (max-width: 626px) {
+  #main-header h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 580px) {
+  #main-header h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 549px) {
+  #main-header h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 489px) {
+   #main-header h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 455px) {
+  #main-header h1 {
+    font-size: 27px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 424px) {
+  #main-header h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 392px) {
+  #main-header h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 369px) {
+  #main-header h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1169px) {
+  .menu-wrap .hamburger {
+    margin-top: -5px;
+  }
+}
+@media screen and (max-width: 1077px) {
+  .menu-wrap .hamburger {
+    margin-top: -7px;
+  }
+}
+@media screen and (max-width: 985px) {
+  .menu-wrap .hamburger {
+    margin-top: -9px;
+  }
+}
+
+#content {
+font-size: 20px;
+line-height: 1.58;
+margin-top: 1.56em;
+}
+
+.container h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1061px) {
+  .container h4 {
+      margin-top: -20px;
+  }
+}
+@media screen and (max-width: 949px) {
+  .container h4 {
+      margin-top: -30px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .container h4 {
+      margin-top: -40px;
+  }
+}
+
+.activity .block{
+  display: flex;
+}
+
+.activity .block-1{
+flex: 2;
+padding: 0px 20px 40px 20px;
+}
+
+.activity .block-2 {
+flex: 3;
+align-self: center;
+padding: 0px 20px 40px 20px;
+
+}
+
+@media screen and (max-width: 781px) {
+  .activity .block {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .activity .block-1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  .activity .block-2 {
+      padding: 0px;
+   }
+   .container .block {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .container .block-1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  .container .block-2 {
+      padding: 0px;
+   }
+   .row-images {
+      flex-wrap: wrap;
+   }
+   .row-images .row-images-3 {
+       padding-top: 30px;
+   }
+}
+
+@media screen and (max-width: 723px) {
+  .row-images .row-images-2 {
+      padding-top: 30px;
+  }
+  .block-images {
+      flex-wrap: wrap;
+  }
+  .block-images .block-images-2 {
+      padding-top: 30px;
+  }
+}
+
+.activity .block-images{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 80px 0px;
+
+}
+
+.activity .row-images{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 80px 0px;
+}
+
+.activity .theme{
+  text-align: center;
+}
+
+hr {
+  padding: 30px;
+  margin-top: 60px;
+  border-top: 1px solid #000;
+}
+
+.container .block{
+  display: flex;
+}
+
+.container .block-1{
+  flex: 2;
+  padding: 0px 20px 40px 20px;
+}
+
+.container .block-2 {
+  flex: 3;
+  align-self: center;
+  padding: 0px 20px 40px 20px;
+}
+
+.container .course {
+  padding-top: 15px;
+}
+
+
+  #grass {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+.context-dark, .bg-gray-dark, .bg-primary {
+  font-family: 'Alegreya', serif;
+  font-size: 19px;
+  line-height: 1.5rem;
+  margin-top: 12px;
+  color:black;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+} 
+ 
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 600 18px/1 "Lato", -apple-system, BlinkMacSystemFont, 'Caveat', cursive;
+  text-transform: uppercase;
+  background-color: rgba(135, 155, 49, 0.5);
+  text-decoration: none;
+  color: #000;
+}
+
+.social-inner:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.container .pr-xl-6 {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 1192px)  {
+  .container .pr-xl-6 {
+    text-align: left;
+    margin-top: 24px;
+  }
+}
+
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: black;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}
+
